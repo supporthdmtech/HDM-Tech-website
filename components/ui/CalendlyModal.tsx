@@ -35,7 +35,7 @@ export function CalendlyModal({ isOpen, onClose }: CalendlyModalProps) {
       />
 
       {/* Modal Box */}
-      <div className="relative z-10 w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl border border-white/20 bg-[#080D1A] shadow-[0_0_80px_rgba(0,163,255,0.25)] animate-in zoom-in-95">
+      <div className="relative z-10 w-full max-w-5xl max-h-[92vh] overflow-y-auto rounded-3xl border border-white/20 bg-[#080D1A] shadow-[0_0_80px_rgba(0,163,255,0.25)] animate-in zoom-in-95">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-20 p-2 rounded-full bg-white/10 text-slate-300 hover:text-white hover:bg-white/20 transition-all"
